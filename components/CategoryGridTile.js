@@ -11,7 +11,7 @@ function CategoryGridTile({title, color, onPress}) {
         android_ripple={{color: '#ccc'}}
         onPress={onPress}
       >
-        <View style={[styles.innerContainer, {backgroundColor: color}]}>
+        <View style={[styles.innerContainer, {backgroundColor: '#eeeeee'}]}>
           <Text style={styles.title}>{title}</Text>
         </View>
       </Pressable>
@@ -24,8 +24,8 @@ export default CategoryGridTile;
 const styles = StyleSheet.create({
   gridItem: {
     flex: 1,
-    margin: 16,
-    height: 150,
+    margin: 8,
+    height: 80,
     borderRadius: 8,
     elevation: 4,
     shadowColor: 'black',
