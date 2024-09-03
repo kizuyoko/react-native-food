@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "react-native-food",
+    "name": "React Native Food",
     "slug": "react-native-food",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,16 +13,24 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kizuyoko.reactnativefood"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3eb3efc-a933-4c3a-ba82-f4dfde7ce0a8"
+      }
     }
   }
 }
