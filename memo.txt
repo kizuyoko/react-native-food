@@ -1,6 +1,8 @@
 To publish in EAS:
 
-1. npm install -g eas-cli
-2. eas login
-3. eas build:configure
-4. 
+1. <Terminal> npm install -g eas-cli
+2. <Terminal> eas login
+3. <Terminal> eas build:configure
+4. eas.json setting update. 
+5. <Terminal> eas build -p android --profile preview
+6. <Terminal> eas build -p ios --profile preview
